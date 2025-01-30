@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NullPtr.rs | Cyber-Industrial Glam Rock</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- Optional Favicon -->
+  <link rel="icon" href="images/favicon.ico" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">NullPtr.rs</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">NullPtr.rs</h1>
+      <p class="hero-subtitle">Cyber-Industrial Glam Rock</p>
+      <a href="#music" class="btn">Dive into the Cyber Abyss</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="content-wrapper">
+      <h2>Who We Are</h2>
+      <p>
+        NullPtr.rs is a <strong>six-member collective</strong> forged from the depths 
+        of neon-lit back alleys and dimly lit code labs. Our name pays homage to 
+        Rust’s famous rejection of null pointers—yet we embrace the dangerous, 
+        chaotic side of the digital realm. We’re the <strong>sonic architects</strong> 
+        bridging futuristic code-driven concepts with the flamboyant spectacle 
+        of glam rock and the crushing weight of industrial metal.
+      </p>
+
+      <h3>Musical Style & Aesthetic</h3>
+      <ol>
+        <li>
+          <strong>Dark Industrial Spine</strong><br/>
+          Heavy, distorted guitar riffs that grind like a factory assembly line. 
+          Mechanized, pulsing drum grooves that echo the controlled chaos of a 
+          coding marathon gone haywire.
+        </li>
+        <li>
+          <strong>Glam Rock Theatrics</strong><br/>
+          Over-the-top stage costumes that blend neon circuitry patterns with 
+          leather and metal studs. Theatrical vocal performances—from snarling lows 
+          to soaring highs—infused with dramatic flair and emotional intensity.
+        </li>
+        <li>
+          <strong>Cinematic Synth & Code-Inspired Atmospheres</strong><br/>
+          Lush layers of synth that evoke sci-fi movie soundtracks and glitchy, 
+          cinematic dread. Sonic textures that feel both futuristic and sinister, 
+          like wandering the server rooms of a dystopian megacorp.
+        </li>
+        <li>
+          <strong>Rustic Cyberpunk Themes</strong><br/>
+          Lyrics rife with references to code, cyber warfare, memory safety, and the 
+          gritty underbelly of the digital realm. A rebellious message aimed at 
+          toppling corrupt systems and exposing vulnerabilities in our world—both in 
+          technology and within ourselves.
+        </li>
+        <li>
+          <strong>Epic Solos & Flamboyant Energy</strong><br/>
+          Face-melting guitar solos that pay tribute to ‘80s glam metal, but with a 
+          modern industrial punch. Dramatic climaxes and breakdowns punctuated by 
+          haunting choirs, orchestral swells, and glitchy electronics.
+        </li>
+      </ol>
+
+      <h3>Our Mission</h3>
+      <p>
+        NullPtr.rs exists at the intersection of <strong>software subculture</strong> 
+        and <strong>heavy music spectacle</strong>. We harness the language of 
+        technology—especially Rust’s precision and safety mindset—and merge it with 
+        the unbridled drama of rock. Our performances are equal parts theatrical 
+        show and cybernetic sermon, rallying our audience to both headbang and 
+        question the code running our world.
+      </p>
+
+      <p>
+        Where <em>glitchy ambience</em> and <em>industrial crunch</em> collide.  
+        Where flamboyant glam rock meets <em>cutting-edge code</em>.  
+        Where <strong>the future</strong> is rewritten in real time, one 
+        electrifying riff at a time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section id="music" class="music-section">
+    <div class="content-wrapper">
+      <h2>Music</h2>
+      <p>Sample our latest tracks from the cyber sphere:</p>
+      <div class="music-cards">
+        <!-- Replace with real Spotify or Bandcamp embeds -->
+        <div class="music-card">
+          <iframe 
+            src="https://open.spotify.com/embed/track/EXAMPLETRACKID" 
+            width="300" 
+            height="80" 
+            frameborder="0" 
+            allowtransparency="true" 
+            allow="encrypted-media">
+          </iframe>
+          <p>“Glitch Injection”</p>
+        </div>
+
+        <div class="music-card">
+          <iframe 
+            src="https://open.spotify.com/embed/track/EXAMPLETRACKID2" 
+            width="300" 
+            height="80" 
+            frameborder="0" 
+            allowtransparency="true" 
+            allow="encrypted-media">
+          </iframe>
+          <p>“Neon Overload”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shows / Tour Dates -->
+  <section id="shows" class="shows-section">
+    <div class="content-wrapper">
+      <h2>Upcoming Shows</h2>
+      <ul class="shows-list">
+        <!-- Sample placeholder shows; update with actual dates & venues -->
+        <li>
+          <span class="date">March 15, 2025</span> 
+          <span class="venue">Neon Circuit Club — New York, NY</span>
+        </li>
+        <li>
+          <span class="date">April 2, 2025</span> 
+          <span class="venue">Cyber Vault Theater — Los Angeles, CA</span>
+        </li>
+        <li>
+          <span class="date">May 10, 2025</span> 
+          <span class="venue">RustCon Afterparty — Austin, TX</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="content-wrapper">
+      <h2>Contact Us</h2>
+      <p>For booking inquiries, collabs, or to say hi—reach out here!</p>
+      <form class="contact-form">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name...">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email...">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="content-wrapper">
+      <p>&copy; 2025 NullPtr.rs. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

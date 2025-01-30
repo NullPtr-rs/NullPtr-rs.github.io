@@ -1,0 +1,227 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* GLOBAL STYLES */
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #0f0f0f;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  
+  /* NAVBAR */
+  .site-header {
+    background: #111;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    color: #fff;
+  }
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  .nav-links li a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  .nav-links li a:hover {
+    color: #ff33cc; /* A neon pink for a cyber-glam vibe */
+  }
+  
+  /* HERO SECTION */
+  .hero-section {
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .hero-content {
+    padding: 2em;
+  }
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    color: #ff33cc; /* neon pink for the band name */
+    text-shadow: 2px 2px #111;
+  }
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    color: #fefefe;
+  }
+  .btn {
+    background: #ff33cc;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 0.3em;
+    transition: background 0.3s ease;
+  }
+  .btn:hover {
+    background: #cc0099;
+  }
+  
+  /* ABOUT SECTION */
+  .about-section {
+    background: #1a1a1a;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .about-section h2 {
+    margin-bottom: 1em;
+    color: #ff33cc;
+  }
+  .about-section h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #ff33cc;
+  }
+  .about-section p, .about-section li {
+    margin-bottom: 1em;
+    line-height: 1.8;
+  }
+  .about-section li {
+    list-style: inside disc;
+  }
+  
+  /* MUSIC SECTION */
+  .music-section {
+    background: #141414;
+  }
+  .music-section h2 {
+    margin-bottom: 1em;
+    color: #ff33cc;
+  }
+  .music-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: flex-start;
+  }
+  .music-card {
+    background: #1f1f1f;
+    border-radius: 6px;
+    padding: 1em;
+    text-align: center;
+    width: 300px;
+  }
+  .music-card p {
+    margin-top: 0.5em;
+    color: #fff;
+  }
+  
+  /* SHOWS SECTION */
+  .shows-section {
+    background: #1a1a1a;
+  }
+  .shows-section h2 {
+    margin-bottom: 1em;
+    color: #ff33cc;
+  }
+  .shows-list {
+    list-style: none;
+    padding: 0;
+  }
+  .shows-list li {
+    margin-bottom: 1em;
+    color: #ccc;
+  }
+  .date {
+    font-weight: bold;
+    margin-right: 0.5em;
+    color: #fff;
+  }
+  
+  /* CONTACT SECTION */
+  .contact-section {
+    background: #141414;
+  }
+  .contact-section h2 {
+    margin-bottom: 1em;
+    color: #ff33cc;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-row label {
+    margin-bottom: 0.5em;
+  }
+  .form-row input,
+  .form-row textarea {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: 1px solid #555;
+    background: #1a1a1a;
+    color: #fff;
+  }
+  .form-row input:focus,
+  .form-row textarea:focus {
+    outline: 2px solid #ff33cc;
+    border: 1px solid #ff33cc;
+  }
+  
+  /* FOOTER */
+  .site-footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .site-footer p {
+    margin: 0;
+  }
+  
+  /* RESPONSIVE STYLES */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .nav-links {
+      flex-direction: column;
+      margin-top: 1em;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    .music-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
