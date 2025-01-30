@@ -55,7 +55,7 @@
   
   /* HERO SECTION */
   .hero-section {
-    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    background: url('../images/hero-bg.webp') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
